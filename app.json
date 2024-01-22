@@ -8,17 +8,17 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "26781382",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "bdcc2fed12e5aa479fbaccaab6bd40fb",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "Put Your Bot token from Botfather",
-        "value": "",
+        "value": "6111906335:AAH3QnzT3S5sl5SQAVGIVHQpCKc_2bfxEC0",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -28,7 +28,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters",
-        "value": "",
+        "value": "⋞⏤꯭〭꛱〬‌♥‌ٖٖٖٖٖٖٜٖٖٖٖٖٖ⃝⃪꯭꯭Ⓜ︎𝖆፝֟፝֟፝֟፝֟፝֟፝͝𝖍𝖎͟Ⓢ︎͙𝖍𝖆፝֟፝֟፝֟፝֟፝֟፝͝𝖗͢𝖒𝖆𝅏꯭𝆭𝖒𝅏꯭𝆭𝔲𝅏꯭𝆭𝔰𝅏꯭𝆭𝔧𝅏𝆭𝒄𝐁𖧋⵿𐍒🎧",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -53,7 +53,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "5255001826",
         "required": true
       },
       "STRING_SESSION": {
@@ -63,17 +63,17 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights !",
-        "value": "",
+        "value": "-1002028734561",
         "required": true
       },
       "SUPPORT_GROUP": {
         "description": "Fill the link of your group..",
-        "value": "https://t.me/RomeoBot_OP",
+        "value": "https://t.me/Mahi_support",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Fill the link of channel.",
-        "value": "https://t.me/Romeo_OP",
+        "value": "https://t.me/Classics0012",
         "required": false
       }
 
