@@ -12,7 +12,7 @@ motor
 OpsAi
 pillow==9.5.0
 psutil
-pytgcalls
+py-tgcalls=2.0.0
 ntgcalls
 pykeyboard
 pyrogram==2.0.106
