@@ -12,15 +12,14 @@ from pytgcalls.exceptions import (
 )
 from ntgcalls import TelegramServerError
 
-from pytgcalls.types import Update
-from pytgcalls.types import MediaStream
-from pytgcalls.types import (
-    AudioParameters, 
-    AudioQuality, 
-    VideoParameters, 
-    VideoQuality,
-)
-from pytgcalls.types.stream import StreamAudioEnded
+from pytgcalls.types.update import Update
+
+from pytgcalls.types.stream.media_stream import MediaStream
+from pytgcalls.types.raw.audio_parameters import AudioParameters
+from pytgcalls.types.stream.audio_quality import AudioQuality
+from pytgcalls.types.tream.video_quality import VideoQuality
+from pytgcalls.types.raw.video_parameters import VideoParameters
+from pytgcalls.types.stream.stream_audio_ended import StreamAudioEnded
 
 import config
 from Romeo import LOGGER, YouTube, app
