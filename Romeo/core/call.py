@@ -17,7 +17,7 @@ from pytgcalls.types.update import Update
 from pytgcalls.types.stream.media_stream import MediaStream
 from pytgcalls.types.raw.audio_parameters import AudioParameters
 from pytgcalls.types.stream.audio_quality import AudioQuality
-from pytgcalls.types.tream.video_quality import VideoQuality
+from pytgcalls.types.stream.video_quality import VideoQuality
 from pytgcalls.types.raw.video_parameters import VideoParameters
 from pytgcalls.types.stream.stream_audio_ended import StreamAudioEnded
 
